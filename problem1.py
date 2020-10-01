@@ -17,3 +17,14 @@ outputs:
 Access granted
 Access denied
 """
+
+usrname = str(input("Enter a usename"))
+passwrd = str(input("Enter a password"))
+count = 0
+
+
+while ((usrname != "admin") or (passwrd != "12345")) or count < 3:
+    count = count + 1
+    print("Access denied")
+if (usrname == "admin") and (passwrd == "12345"):
+    print("Access granted")
