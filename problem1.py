@@ -20,7 +20,7 @@ Access denied
 
 usrname = str(input("Enter a usename"))
 passwrd = str(input("Enter a password"))
-count = 0
+count = 1
 
 
 while ((usrname != "admin") or (passwrd != "12345")) and count < 3:
