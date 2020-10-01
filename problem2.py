@@ -18,10 +18,11 @@ Enter a number: 4
 intnumber = float(input("Enter a number"))
 count = 0
 mult = 1
-
+output = ""
 while count < 12:
     count = count + 1  
     number = intnumber * mult
     mult = mult + 1
-print(number)
-  
+    output = output + str(intnumber * mult) + " "
+
+print(output)
