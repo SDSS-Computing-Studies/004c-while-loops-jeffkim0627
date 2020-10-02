@@ -18,7 +18,7 @@ Access granted
 Access denied
 """
 
-usrname = str(input("Enter a usename"))
+usrname = str(input("Enter a username"))
 passwrd = str(input("Enter a password"))
 count = 1
 
@@ -28,7 +28,5 @@ while ((usrname != "admin") or (passwrd != "12345")) and count < 3:
     usrname = str(input("Enter a usename"))
     passwrd = str(input("Enter a password"))
     count = count + 1 
-if count < 3 :
-    print("Access denied")
-elif (usrname == "admin") and (passwrd == "12345"):
+if (usrname == "admin") and (passwrd == "12345"):
     print("Access granted")
