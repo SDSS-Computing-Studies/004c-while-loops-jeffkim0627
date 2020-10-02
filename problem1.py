@@ -20,7 +20,7 @@ Access denied
 
 usrname = (str(input("Enter a username")).strip())
 passwrd = (str(input("Enter a password")).strip())
-count = 1
+count = 0
 
 
 while ((usrname != "admin") or (passwrd != "12345")) and count < 3:
