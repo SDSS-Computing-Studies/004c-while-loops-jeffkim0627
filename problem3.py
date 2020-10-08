@@ -13,12 +13,14 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
-number = 1
-prevnumber = 1
+n1, n2 = 0, 1
+count = 0
 
-while number < 100:
-    c = number + prevnumber
-    prevnumber = number
-    number = c
+while count < 12:
+       print(n2)
+       nth = n1 + n2
+       n1 = n2
+       n2 = nth
+       count += 1
 
     
