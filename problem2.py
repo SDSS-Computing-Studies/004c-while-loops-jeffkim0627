@@ -15,14 +15,13 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
-intnumber = float(input("Enter a number"))
+intnumber = int(input("Enter a number"))
 count = 0
 mult = 1
 output = ""
 while count < 12:
-    count = count + 1  
     number = intnumber * mult
-    mult = mult + 1
+    count = count + 1  
     output = output + str(intnumber * mult) + " "
-
+    mult = mult + 1
 print(output)
