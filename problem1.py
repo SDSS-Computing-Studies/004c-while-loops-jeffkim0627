@@ -25,8 +25,8 @@ count = 0
 
 while ((usrname != "admin") or (passwrd != "12345")) and count < 3:
     print("Access denied")
-    usrname = str(input("Enter a usename"))
-    passwrd = str(input("Enter a password"))
+    usrname = str(input("Enter a usename")).strip()
+    passwrd = str(input("Enter a password")).strip()
     count = count + 1 
 if (usrname == "admin") and (passwrd == "12345"):
     print("Access granted")
