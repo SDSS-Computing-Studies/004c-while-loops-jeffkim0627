@@ -31,4 +31,4 @@ while ((usrname != "admin") or (passwrd != "12345")) and count < 3:
 if (usrname == "admin") and (passwrd == "12345"):
     print("Access granted")
 elif count == 3:
-    print("Access Denied")
+    print("Access denied")
