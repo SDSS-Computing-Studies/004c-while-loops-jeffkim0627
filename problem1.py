@@ -18,8 +18,8 @@ Access granted
 Access denied
 """
 
-usrname = (str(input("Enter a username")).strip())
-passwrd = (str(input("Enter a password")).strip())
+usrname = str(input("Enter a username")).strip()
+passwrd = str(input("Enter a password")).strip()
 count = 0
 
 
