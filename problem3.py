@@ -15,12 +15,11 @@ Example:
 """
 n1, n2 = 0, 1
 count = 0
-
+output = ""
 while count < 12:
-       print(n2)
-       nth = n1 + n2
-       n1 = n2
-       n2 = nth
-       count += 1
-
-    
+    nth = n1 + n2
+    n1 = n2
+    n2 = nth
+    count += 1
+    output = output+ str(n1) + " "
+print(output)
